@@ -44,8 +44,43 @@
       </div>
     </section>
 
+    <!-- Carousel Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-4">
+        <div id="carousel" class="relative">
+          <!-- Slides -->
+          <div class="overflow-hidden">
+            <div class="whitespace-nowrap transition-transform duration-500 ease-linear">
+              <!-- Slide 1 -->
+              <div class="inline-block w-full">
+                <!-- Content for Slide 1 -->
+              </div>
+              <!-- Slide 2 -->
+              <div class="inline-block w-full">
+                <!-- Content for Slide 2 -->
+              </div>
+              <!-- Add more slides as needed -->
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="absolute w-full flex justify-between top-1/2 transform -translate-y-1/2 px-3">
+            <button id="prev" class="bg-white text-gray-800 rounded-full p-2 focus:outline-none">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="next" class="bg-white text-gray-800 rounded-full p-2 focus:outline-none">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- Indicators -->
+          <div class="absolute w-full flex justify-center bottom-0 pb-4">
+            <button class="carousel-indicator bg-white rounded-full p-1 mx-2"></button>
+            <button class="carousel-indicator bg-white rounded-full p-1 mx-2"></button>
+            <!-- Add more indicators as needed -->
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Testimonials Section -->
-    <section class="bg-gray-200 py-20">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center">What Our Customers Say</h2>
         <div class="flex flex-col md:flex-row justify-center items-center mt-8 space-y-4 md:space-y-0 md:space-x-4">
